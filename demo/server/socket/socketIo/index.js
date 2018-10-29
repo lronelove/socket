@@ -1,7 +1,3 @@
-const io = require('./io.js');
-const socketHandler = require('./socketHandler.js');
-const redis = require('./../redis/index.js');
-
 // 初始化监听函数
 class NodeSocket {
   constructor (io, redis, socketHandler) {
@@ -30,6 +26,5 @@ class NodeSocket {
   }
 }
 
-const nodeSocket = new NodeSocket(io, redis, socketHandler)
-module.exports = nodeSocket
+module.exports = NodeSocket
 

@@ -6,7 +6,7 @@ import router from './router'
 import VueSocketio from 'vue-socket.io'
 
 Vue.config.productionTip = false
-Vue.use(VueSocketio, 'http://192.168.1.102:3000')
+Vue.use(VueSocketio, 'http://192.168.1.102:3001')
 
 /* eslint-disable no-new */
 new Vue({
