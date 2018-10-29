@@ -4,15 +4,12 @@ var app = require('koa')()
 , views = require('koa-views')
 , onerror = require('koa-onerror');
 
-const IO = require( 'koa-socket' );
-const io = new IO();
-const redis = require('./redis/index.js');
-const initSocketEvent = require('./socketIo/index.js');
-initSocketEvent();
-
 var index = require('./routes/index');
 var users = require('./routes/users');
 
+const nodeSocket = require('./socketIo')
+
+nodeSocket.initSocketEvent()
 // error handler
 onerror(app);
 
