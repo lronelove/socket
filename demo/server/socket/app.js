@@ -45,26 +45,6 @@ app.on('error', (err, ctx) => {
   console.error('server error', err, ctx)
 })
 
-// 下面是socket的部分操作
-// io.attach( app )
-
-// app._io.on( 'connection', socket => {
-//   // socket链接，把token和对应的socket会话一一对应，存储在redis
-//   socket.on('join', (token) => {
-//     socketHandler.join(redis, token, socket)
-//   })
-
-//   // 发送消息给指定某个人
-//   socket.on('message', async data => {
-//     socketHandler.message(data, redis, app)
-//   })
-
-//   // 断掉链接
-//   socket.on('disconnect', () => {
-//     socketHandler.disconnect()
-//   })
-// })
-
 // routes definition
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())

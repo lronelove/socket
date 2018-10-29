@@ -10,6 +10,7 @@ const nums = OS.cpus().length
 
 // 当前如果是主线程
 if (cluster.isMaster) {
+  app.listen(3002)
   // 循环 fork 任务
   for (let i = 0; i < nums; i++) {
     const worker = cluster.fork()
