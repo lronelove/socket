@@ -1,0 +1,17 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node app.js",
+    "serve": "node app.js"
+  },
+  "description": "socket 服务",
+  "main": "app.js",
+  "author": "lronelove",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ioredis": "^4.2.0",
+    "socket.io": "^2.1.1"
+  }
+}
