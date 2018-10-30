@@ -1,6 +1,6 @@
 var router = require('koa-router')()
 
-router.get('/pushMessage', async (ctx) => {
+router.get('/', async (ctx) => {
   ctx.body = 'hello world'
 })
 

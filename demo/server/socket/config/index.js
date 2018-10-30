@@ -4,6 +4,6 @@ module.exports = {
     port: '6379'
   },
   server: {
-    port: 3001
+    port: 3000
   }
 }
