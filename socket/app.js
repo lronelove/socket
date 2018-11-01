@@ -6,6 +6,7 @@ const config = require('./config/index.js') // 配置信息
 const createRedisServer = require('./redis/index.js') // 创建redis服务的函数
 const SocketHandler = require('./socketHandler/index.js') // 处理socket事件对应的方法
 const HttpHandler = require('./httpHandler/index.js') // 处理http请求对应的方法
+const masterLogger = require('./log/index.js')
 
 const redis = createRedisServer() // 创建redis服务
 
