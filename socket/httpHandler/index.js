@@ -17,6 +17,37 @@ class HttpHandler {
     	data: socketId
   	})
 	}
+
+  // 消息中心推送数据给我的接口
+  static async reiceveMessage (req, res, redis, io) {
+    let { 
+      target,
+      data
+    } = req.body
+    const users = target.split(',') // 获取用户列表
+
+    for (let i = 0, len = users.length; i < len; i++) {
+      let socketId = await redis.get(users[i].trim()).then(res => {
+        return res
+      })
+      console.log(users[i].trim())
+      console.log(socketId)      
+      let target = io.sockets.connected[socketId]
+      console.log(target)
+
+      if (target) {
+        target.emit('message', data)
+        masterLogger.info('receive some message from message center')
+      }
+
+    }
+    
+    res.send({
+      done: 'has send these message',
+      target,
+      data 
+    })
+  }
 }
 
 module.exports = HttpHandler
