@@ -162,3 +162,21 @@
 [2018-11-01T18:29:19.444] [INFO] cheese - receive some message from message center
 [2018-11-01T18:29:23.988] [INFO] cheese - receive some message from message center
 [2018-11-01T18:29:24.020] [INFO] cheese - receive some message from message center
+[2018-11-01T18:30:08.101] [TRACE] cheese - 主进程 24656 正在运行
+[2018-11-01T18:30:09.002] [TRACE] cheese - 工作进程 20108 已启动
+[2018-11-01T18:30:09.011] [TRACE] cheese - 工作进程 9376 已启动
+[2018-11-01T18:30:09.049] [TRACE] cheese - server is running at 3001
+[2018-11-01T18:30:09.062] [TRACE] cheese - server is running at 3001
+[2018-11-01T18:30:09.158] [TRACE] cheese - 工作进程 29724 已启动
+[2018-11-01T18:30:09.178] [TRACE] cheese - server is running at 3001
+[2018-11-01T18:30:09.258] [TRACE] cheese - 工作进程 23776 已启动
+[2018-11-01T18:30:09.281] [TRACE] cheese - server is running at 3001
+[2018-11-01T18:30:09.376] [INFO] cheese - socketId:KpIjRxNcC7nSZh_nAAAA已经链接
+[2018-11-01T18:30:12.146] [INFO] cheese - socketId:VQptDbFhzukw78ACAAAB已经链接
+[2018-11-01T18:30:19.657] [INFO] cheese - socketId:Ld0jPZNuFMiK5FCfAAAC已经链接
+[2018-11-01T18:30:19.734] [INFO] cheese - lronelove register Ld0jPZNuFMiK5FCfAAAC
+[2018-11-01T18:30:23.152] [INFO] cheese - socketId:hAj-2lZ6Oj67IppfAAAD已经链接
+[2018-11-01T18:30:23.218] [INFO] cheese - jack register hAj-2lZ6Oj67IppfAAAD
+[2018-11-01T18:30:25.181] [INFO] cheese - receive some message from message center
+[2018-11-01T18:30:29.075] [INFO] cheese - receive some message from message center
+[2018-11-01T18:30:29.103] [INFO] cheese - receive some message from message center
