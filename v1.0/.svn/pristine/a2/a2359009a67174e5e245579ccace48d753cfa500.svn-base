@@ -1,0 +1,18 @@
+[2018-11-01T16:07:16.017] [TRACE] cheese - 主进程 26260 正在运行
+[2018-11-01T16:07:16.757] [TRACE] cheese - 工作进程 29632 已启动
+[2018-11-01T16:07:16.763] [TRACE] cheese - 工作进程 4856 已启动
+[2018-11-01T16:07:16.804] [TRACE] cheese - server is running at 3001
+[2018-11-01T16:07:16.852] [TRACE] cheese - server is running at 3001
+[2018-11-01T16:07:16.875] [TRACE] cheese - 工作进程 17844 已启动
+[2018-11-01T16:07:16.895] [TRACE] cheese - server is running at 3001
+[2018-11-01T16:07:16.960] [TRACE] cheese - 工作进程 19916 已启动
+[2018-11-01T16:07:16.980] [TRACE] cheese - server is running at 3001
+[2018-11-01T16:07:17.363] [INFO] cheese - jack register gQ94zx5dBxgA0LBhAAAA
+[2018-11-01T16:07:43.649] [INFO] cheese - lronelove register BcjQv4yJVYyqoAEGAAAC
+[2018-11-01T16:07:55.258] [INFO] cheese - receive some message from message center
+[2018-11-01T16:48:38.977] [INFO] cheese - receive some message from message center
+[2018-11-01T16:48:39.149] [INFO] cheese - receive some message from message center
+[2018-11-01T16:48:39.341] [INFO] cheese - receive some message from message center
+[2018-11-01T16:48:39.541] [INFO] cheese - receive some message from message center
+[2018-11-01T16:48:39.709] [INFO] cheese - receive some message from message center
+[2018-11-01T16:48:39.917] [INFO] cheese - receive some message from message center

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--reset样式项目里面不要引入  -->
+  <link rel="stylesheet" href="reset.css">
+
+  <!--segi互联iconfont库  -->
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_885466_ljuwzj258fc.css">
+
+  <!--头部导航加上消息中心样式  -->
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <!--这是顶部导航模块-->
+  <div class="head-lr">
+      <ul class="nav-lr">
+          <li class="nav-li-lr">
+              <a class="message-head-lr">
+                    <div class="message-head-button">
+                        <i class="iconfont icon-bell"></i>
+                        <span>消息</span>
+                        <em id="redCount">0</em>
+                    </div>
+              </a>
+          </li>
+          <li class="nav-li-lr" id="qrCode-li-lr">
+              <a href="javascript:;">
+                  <i class="iconfont icon-qrcode"></i>
+                  <span>常服务APP二维码</span>
+                  <div class="qrCode-lr">
+                      <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4192636148,1270419006&fm=26&gp=0.jpg" alt="">
+                  </div>
+              </a>
+          </li>
+          <li class="nav-li-lr">
+              <a href="javascript:;">
+                  <i class="iconfont icon-question-circle"></i>
+                  <span>帮助中心</span>
+              </a>
+          </li>
+          <li class="nav-li-lr" id="user-li-lr">
+              <a href="javascript:;">
+                  <img src="defaultPhoto.png" alt="头像">
+                  <span>李志刚</span>
+              </a>
+              <div class="user-lr">
+                  <ul>
+                      <li>
+                          <a href="javascript:;">
+                              <i class="iconfont icon-lock"></i>
+                              <span>修改密码</span>
+                          </a>
+                      </li>
+
+                      <li>
+                          <a href="javascript:;">
+                              <i class="iconfont icon-logout"></i>
+                              <span>退出登陆</span>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </li>
+      </ul>
+
+  </div>
+
+  <script src="socket.io.js"></script>
+
+  <!--消息提醒相关js-->
+  <script src="index.js"></script>
+</body>
+</html>

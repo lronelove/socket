@@ -1,0 +1,21 @@
+[2018-11-01T14:48:26.175] [TRACE] cheese - 主进程 19004 正在运行
+[2018-11-01T14:48:26.896] [TRACE] cheese - 工作进程 23568 已启动
+[2018-11-01T14:48:26.926] [TRACE] cheese - server is running at 3001
+[2018-11-01T14:48:26.929] [TRACE] cheese - 工作进程 21280 已启动
+[2018-11-01T14:48:26.940] [TRACE] cheese - 工作进程 19968 已启动
+[2018-11-01T14:48:26.950] [TRACE] cheese - 工作进程 11220 已启动
+[2018-11-01T14:48:26.953] [TRACE] cheese - server is running at 3001
+[2018-11-01T14:48:26.968] [TRACE] cheese - server is running at 3001
+[2018-11-01T14:48:26.983] [TRACE] cheese - server is running at 3001
+[2018-11-01T14:49:18.017] [TRACE] cheese - 主进程 30348 正在运行
+[2018-11-01T14:49:18.639] [TRACE] cheese - 工作进程 27168 已启动
+[2018-11-01T14:49:18.659] [TRACE] cheese - server is running at 3001
+[2018-11-01T14:49:18.682] [TRACE] cheese - 工作进程 27224 已启动
+[2018-11-01T14:49:18.703] [TRACE] cheese - server is running at 3001
+[2018-11-01T14:49:18.745] [TRACE] cheese - 工作进程 12972 已启动
+[2018-11-01T14:49:18.765] [TRACE] cheese - server is running at 3001
+[2018-11-01T14:49:18.899] [TRACE] cheese - 工作进程 28792 已启动
+[2018-11-01T14:49:18.918] [TRACE] cheese - server is running at 3001
+[2018-11-01T14:49:45.836] [INFO] cheese - lronelove register HHj8NXQVm_Z1McgZAAAC
+[2018-11-01T14:49:47.952] [INFO] cheese - jack register PtRAA60fLewoG0B9AAAD
+[2018-11-01T14:49:49.259] [INFO] cheese - private message to:jack

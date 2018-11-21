@@ -1,0 +1,9 @@
+[2018-11-01T15:55:41.331] [TRACE] cheese - 主进程 30480 正在运行
+[2018-11-01T15:55:42.132] [TRACE] cheese - 工作进程 28136 已启动
+[2018-11-01T15:55:42.135] [TRACE] cheese - 工作进程 15704 已启动
+[2018-11-01T15:55:42.158] [TRACE] cheese - server is running at 3001
+[2018-11-01T15:55:42.171] [TRACE] cheese - server is running at 3001
+[2018-11-01T15:55:42.187] [TRACE] cheese - 工作进程 10552 已启动
+[2018-11-01T15:55:42.205] [TRACE] cheese - server is running at 3001
+[2018-11-01T15:55:42.301] [TRACE] cheese - 工作进程 14800 已启动
+[2018-11-01T15:55:42.323] [TRACE] cheese - server is running at 3001

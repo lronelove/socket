@@ -14,6 +14,9 @@ export default {
     },
     message (val) {
       console.log(val)
+    },
+    hasRead (val) {
+      console.log(val)
     }
   },
   data () {
@@ -27,7 +30,7 @@ export default {
         to: 'lronelove',
         from: 'jack',
         msg: 'hello , I am lronelove ,jack , can you hear me ?'
-      })
+      });
       console.log('lronelove send to jack')
     }
   },
